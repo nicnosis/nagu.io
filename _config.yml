@@ -1,12 +1,7 @@
-
-markdown: kramdown
-
-# Themes are encouraged to use these universal variables
-# so be sure to set them if your theme uses them.
-#
-title : nicolas aguirre
+baseurl: ""
+title: nagu.io
 tagline: Envision. Execute.
-name : Nicolas Aguirre
-email : nic.jsb (at) gmail (dot) com
-github : novonagu
-twitter : novonagu
+name: Nicolas Aguirre
+email: nic.jsb (at) gmail (dot) com
+github: novonagu
+twitter: novonagu

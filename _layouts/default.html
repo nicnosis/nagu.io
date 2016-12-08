@@ -1,1 +1,29 @@
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body>
+
+<!--googleoff: all-->
+
+<header>
+    <div class="text">
+        <nav>
+            <div class="site-title" id="about"><a href='/'>{{ site.title }}</a></div>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+
+    <!--googleon: all-->
+    <main>
+        {{ content }}
+    </main>
+    <!--googleoff: all-->
+
+    {% include footer.html %}
+</div>
+</body>
+</html>
