@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>{% include head.html %}
+</head>
+<body>
+<!--googleoff: all-->
+<header>
+    <div class="text">
+        <nav>
+            <div class="site-title" id="about"><a href='/'>{{ site.title }}</a></div>
+        </nav>
+    </div>
+    </div> <!-- matches nothing?? -->
+</header>
+
+<!--googleon: all-->
+
+<main>
+    <article>
+        {{ content }}
+    </article>
+</main>
+
+<!--googleoff: all-->
+
+<footer class="footer">
+    <small>
+        {% if page.footer == nil %}
+        Copyright Nicolas Aguirre
+        {% else %}
+        {{ page.footer }}
+        {% endif %}
+    </small>
+</footer>
+</body>
+</html>
