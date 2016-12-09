@@ -4,4 +4,12 @@ title: nagu.io
 #header: Pages
 ---
 
-<blockquote>my cool index page</blockquote>
+<h1>nagu.io</h1>
+<ul>
+    {% for project in site.data.projects %}
+    <li>
+        <h2>{{ project.title }}</h2>
+        <p>{{ project.description }}</p>
+    </li>
+    {% endfor %}
+</ul>
