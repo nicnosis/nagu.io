@@ -1,12 +1,14 @@
 [
   {
     title: "spirograph",
-    description: "cool spirograph",
-    slug: "spirograph"
+    desc: "cool spirograph",
+    slug: "spirograph",
+    img_path: "img/spirograph.png"
   },
   {
     title: "Coral Reef Restoration",
-    description: "RSMAS Rescue-a-Reef",
+    date: "2016",
+    desc: "RSMAS Rescue-a-Reef",
     slug: "coral"
   }
 ]

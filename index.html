@@ -9,7 +9,12 @@ title: nagu.io
     {% for project in site.data.projects %}
     <li>
         <h2>{{ project.title }}</h2>
-        <p>{{ project.description }}</p>
+        <time>{%if project.date %} {{ project.date }} {% endif %}</time>
+        <p>{{ project.desc }}</p>
+        {% if project.slug %}
+            <p>Link: <a href="{{site.url}}/projects/{{project.slug}}">link</a></p>
+        {% endif %}
+        <p>{% if project.img_path %} {{ project.img_path }} {% endif %}</p>
     </li>
     {% endfor %}
 </ul>
