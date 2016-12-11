@@ -1,3 +1,22 @@
+@mixin calc($property, $expression) {
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: -moz-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}
+
 .debug {
   border: 1px solid rgba(255, 0, 120, 0.6);
+  max-width: 960px;
+}
+
+#gallery {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block {
+  background: #eee;
+  line-height: 100px;
+  text-align: center;
+  border: 1px solid #ddd;
 }
