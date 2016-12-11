@@ -5,16 +5,19 @@ title: nagu.io
 ---
 
 <h1>nagu.io</h1>
-<ul>
-    {% for project in site.data.projects %}
-    <li>
-        <h2>{{ project.title }}</h2>
-        <time>{%if project.date %} {{ project.date }} {% endif %}</time>
-        <p>{{ project.desc }}</p>
-        {% if project.slug %}
-            <p>Link: <a href="{{site.url}}/projects/{{project.slug}}">link</a></p>
-        {% endif %}
-        <p>{% if project.img_path %} {{ project.img_path }} {% endif %}</p>
-    </li>
-    {% endfor %}
-</ul>
+
+<div id="gallery" class="debug">gallery</div>
+
+<!--<ul>-->
+    <!--{% for project in site.data.projects %}-->
+    <!--<li>-->
+        <!--<h2>{{ project.title }}</h2>-->
+        <!--<time>{%if project.date %} {{ project.date }} {% endif %}</time>-->
+        <!--<p>{{ project.desc }}</p>-->
+        <!--{% if project.slug %}-->
+            <!--<p>Link: <a href="{{site.url}}/projects/{{project.slug}}">link</a></p>-->
+        <!--{% endif %}-->
+        <!--<p>{% if project.img_path %} {{ project.img_path }} {% endif %}</p>-->
+    <!--</li>-->
+    <!--{% endfor %}-->
+<!--</ul>-->
