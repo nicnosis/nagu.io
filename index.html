@@ -3,21 +3,29 @@ layout: default
 title: nagu.io
 #header: Pages
 ---
+<div id="gallery" class="debug">
+    {% assign length = 16 %}
+    {% assign rows = length | divided_by: 4 %}
 
-<h1>nagu.io</h1>
-
-<div id="gallery" class="debug">gallery</div>
+    {% for i in (1..rows) %}
+    <div class="row row-{{i}} row-no-padding">
+        {% for j in (1..4) %}
+        <div class="col-lg-3 col-md-6 col-xs-12 block block-{{j}}">   row {{ i }} block {{j}}  </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
 
 <!--<ul>-->
-    <!--{% for project in site.data.projects %}-->
-    <!--<li>-->
-        <!--<h2>{{ project.title }}</h2>-->
-        <!--<time>{%if project.date %} {{ project.date }} {% endif %}</time>-->
-        <!--<p>{{ project.desc }}</p>-->
-        <!--{% if project.slug %}-->
-            <!--<p>Link: <a href="{{site.url}}/projects/{{project.slug}}">link</a></p>-->
-        <!--{% endif %}-->
-        <!--<p>{% if project.img_path %} {{ project.img_path }} {% endif %}</p>-->
-    <!--</li>-->
-    <!--{% endfor %}-->
+<!--{% for project in site.data.projects %}-->
+<!--<li>-->
+<!--<h2>{{ project.title }}</h2>-->
+<!--<time>{%if project.date %} {{ project.date }} {% endif %}</time>-->
+<!--<p>{{ project.desc }}</p>-->
+<!--{% if project.slug %}-->
+<!--<p>Link: <a href="{{site.url}}/projects/{{project.slug}}">link</a></p>-->
+<!--{% endif %}-->
+<!--<p>{% if project.img_path %} {{ project.img_path }} {% endif %}</p>-->
+<!--</li>-->
+<!--{% endfor %}-->
 <!--</ul>-->
