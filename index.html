@@ -5,14 +5,8 @@ title: nagu.io
 ---
 <div id="gallery" class="debug">
     {% assign length = 16 %}
-    {% assign rows = length | divided_by: 4 %}
-
-    {% for i in (1..rows) %}
-    <div class="row row-{{i}} row-no-padding">
-        {% for j in (1..4) %}
-        <div class="col-lg-3 col-md-6 col-xs-12 block block-{{j}}">   row {{ i }} block {{j}}  </div>
-        {% endfor %}
-    </div>
+    {% for i in (1..length) %}
+        <div class="block">{{i}}</div>
     {% endfor %}
 </div>
 

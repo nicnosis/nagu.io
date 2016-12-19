@@ -1,7 +1,7 @@
 <footer class="footer">
     <small>
         {% if page.footer == nil %}
-        Nicolas Aguirre
+        &copy; Nicolas Aguirre {{ site.time | date: '%Y' }}
         {% else %}
         {{ page.footer }}
         {% endif %}
