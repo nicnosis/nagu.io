@@ -3,7 +3,7 @@
     title: "Walking Algorithms Visualized",
     date: "2016",
     desc: "Uses p5.js to visualize random walk algorithms and perlin noise",
-    permalink: "random-walk",
+    permalink: "perlin",
     feature: "random-walk.png"
   },
   {
@@ -19,5 +19,12 @@
     desc: "RSMAS Rescue-a-Reef",
     permalink: "coral",
     feature: "coral.png",
+  },
+  {
+    title: "Tides of Fate",
+    date: "2015",
+    desc: "Global warming project for infographics class",
+    permalink: "climate-change",
+    feature: "climate-change.png"
   }
 ]

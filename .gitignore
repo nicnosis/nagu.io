@@ -6,3 +6,4 @@ Thumbs.db
 .rvmrc
 .idea
 .sass-cache/
+node_modules
