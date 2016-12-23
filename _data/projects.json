@@ -1,14 +1,23 @@
 [
   {
-    title: "spirograph",
-    desc: "cool spirograph",
-    slug: "spirograph",
-    img_path: "img/spirograph.png"
+    title: "Walking Algorithms Visualized",
+    date: "2016",
+    desc: "Uses p5.js to visualize random walk algorithms and perlin noise",
+    permalink: "random-walk",
+    feature: "random-walk.png"
+  },
+  {
+    title: "Triptych",
+    date: "2014",
+    desc: "Three panel interactive artwork",
+    permalink: "triptych",
+    feature: "triptych.png"
   },
   {
     title: "Coral Reef Restoration",
     date: "2016",
     desc: "RSMAS Rescue-a-Reef",
-    slug: "coral"
+    permalink: "coral",
+    feature: "coral.png",
   }
 ]
