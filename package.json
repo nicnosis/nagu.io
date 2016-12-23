@@ -1,0 +1,22 @@
+{
+  "name": "nagu.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novoNagu/nagu.io.git"
+  },
+  "author": "Nicolas Aguirre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novoNagu/nagu.io/issues"
+  },
+  "homepage": "https://github.com/novoNagu/nagu.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
