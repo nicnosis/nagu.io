@@ -10,13 +10,14 @@
 
 .block {
   background: #eee;
-
   border: 1px solid rgba(30, 30, 255, 0.25);
-
-  //width:400px;
   display: inline-block;
-
   text-align: center;
+  overflow: hidden;
+  
+  a img {
+    height: 100%;
+  }
 }
 
 @media (max-width: 576px) {
