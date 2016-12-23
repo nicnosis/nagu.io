@@ -6,5 +6,5 @@ email: nic.jsb (at) gmail (dot) com
 github: novonagu
 twitter: novonagu
 
-gems:
-- jekyll-autoprefixer
+#gems:
+#- jekyll-autoprefixer
