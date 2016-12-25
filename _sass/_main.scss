@@ -14,10 +14,14 @@
   display: inline-block;
   text-align: center;
   overflow: hidden;
-  
+  transition: all .2s ease-in-out;
+
   a img {
     height: 100%;
   }
+}
+.block:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 576px) {

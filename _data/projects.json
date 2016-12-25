@@ -26,5 +26,13 @@
     desc: "Global warming project for infographics class",
     permalink: "climate-change",
     feature: "climate-change.png"
+  },
+  {
+    title: "Heroin: A Scourge on Society",
+    date: "2015",
+    desc: "infographics based examination of heroin",
+    permalink: "heroin",
+    feature: "heroin.png"
+
   }
 ]
