@@ -33,6 +33,12 @@
     desc: "infographics based examination of heroin",
     permalink: "heroin",
     feature: "heroin.png"
-
+  },
+  {
+    title: "eduviz: Tableau and DoE Data",
+    date: "2016",
+    desc: "A Comprehensive Analysis of Department of Education Data",
+    permalink: "eduviz/web",
+    feature: "eduviz.png"
   }
 ]
