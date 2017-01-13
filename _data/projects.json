@@ -47,5 +47,12 @@
     desc: "A Comprehensive Analysis of Department of Education Data",
     permalink: "eduviz/web",
     feature: "eduviz.png"
+  },
+  {
+    title: "SAP Lumira: UN Global Goals",
+    date: "2016",
+    desc: "Series of 17 visualizations for United Nations through SAP Lumira",
+    remote: true,
+    feature: "globalgoals.png"
   }
 ]
