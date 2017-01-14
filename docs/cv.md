@@ -10,8 +10,8 @@ naguirre@indiana.edu
 http://nagu.io
 
 ## Education
-__M.F.A.__, Interactive Media | University of Miami  
-__B.S.B.A__, Finance | University of Central Florida
+__M.F.A.__, Interactive Media, University of Miami  
+__B.S.B.A__, Finance, University of Central Florida
 
 ## Teaching
 #### Indiana University - Bloomington
