@@ -22,17 +22,20 @@ __B.S.B.A__, Finance | University of Central Florida
 
 ## Work Experience
 #### Indiana University - Bloomington - Lecturer
-Fall 2016 - Present
+Fall 2016 - Present  
+
  * _MSCH-J460: Interactive Data Visualization_
  * _MSCH-J360: Web Design_
  * _MSCH-J362: Multimedia Storytelling_
 
 #### University of Miami - Adjunct Professor
-Fall 2015
+Fall 2015  
+
  * _CIM310: Introduction to Game Design_
 
 #### NORC @ The University of Chicago - Data Visualization Intern
 May 2015 - August 2015
+
  * Serving as an internal consultant for data-intensive projects
  * Analyzing robust data sets and designing visualizations for management
  * Developing both static and dynamic tools for analysis
@@ -40,6 +43,7 @@ May 2015 - August 2015
 
 #### Palmetto Bay Academy - Math Instructor
 January 2012 - June 2013
+
  * Teaching and tutoring students in all high-school mathematics levels (including calculus)
  * Preparing online homework and assessments for students
  * Developing and maintaining school-wide spreadsheets for attendance and grading
@@ -48,6 +52,7 @@ January 2012 - June 2013
 
 #### Siemens Energy - Intern Analyst
 December 2010 - August 2011
+
  * Running monthly operating reviews, including WIP, balance sheet, and other financial statements
  * Participating in weekly expenditure meetings
  * Aggregating financial data for budget purposes
@@ -55,6 +60,7 @@ December 2010 - August 2011
 
 #### Lockheed Martin MFC - Lean Six Sigma Intern
 May 2010 - December 2010
+
  * Running SQL-based queries and compiling MOR reports using dbVisualizer
  * Manipulating and analyzing data in Microsoft Excel
  * Discovering and reporting database inefficiencies and data integrity issues
