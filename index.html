@@ -4,13 +4,13 @@ title: nagu.io
 #header: Pages
 ---
 <div id="gallery" class="">
-        {% for project in site.data.projects %}
-        <div class="block">
-            <a href="{{ site.baseurl }}/projects/{{ project.permalink }}">
-                <img src="{{ site.baseurl }}/img/feature/{{project.feature}}" alt="{{ project.desc }}">
-            </a>
-        </div>
-        {% endfor %}
+    {% for project in site.data.projects %}
+    <div class="block">
+        <a href="{{ site.baseurl }}/projects/{{ project.permalink }}">
+            <img src="{{ site.baseurl }}/img/feature/{{project.feature}}" alt="{{ project.desc }}">
+        </a>
+    </div>
+    {% endfor %}
 </div>
 
 <!--<li>-->
