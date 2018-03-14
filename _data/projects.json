@@ -53,6 +53,7 @@
     date: "2016",
     desc: "Series of 17 visualizations for United Nations through SAP Lumira",
     remote: true,
+    permalink: "https://saplumira.com/unglobalgoals/",
     feature: "globalgoals.png"
   }
 ]

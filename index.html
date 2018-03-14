@@ -6,7 +6,12 @@ title: nagu.io
 <div id="gallery" class="">
     {% for project in site.data.projects %}
     <div class="block">
+
+        {% if project.remote == true %}
+        <a href="{{ project.permalink }}">
+        {% else %}
         <a href="{{ site.baseurl }}/projects/{{ project.permalink }}">
+        {% endif %}
             <img src="{{ site.baseurl }}/img/feature/{{project.feature}}" alt="{{ project.desc }}">
         </a>
     </div>
